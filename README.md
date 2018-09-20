@@ -7,6 +7,8 @@ There are 3 categories that you can choose from:
 * Books
 * Programming principles
 
-Every time you guess a word/phrase you gain points and continue the game.
+Every time you guess a word/phrase you gain points and the game continues.
 
 You start with 10 attempts for a single word/phrase. With every correct word/phrase the attempts are reset. When you hit 0 the game is over!
+
+Good luck!
