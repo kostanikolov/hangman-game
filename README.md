@@ -1,8 +1,6 @@
-# Welcome to my Hangman game!
+# Welcome to my Hangman game! Writen on Java 10
 
-## It is writen on Java 10
-
-## The game is running from the Application.java file which is at the src\hangman folder
+## You can start the game from the Application.java file at the src\hangman folder.
 
 There are 3 categories that you can choose from:
 * Football teams
