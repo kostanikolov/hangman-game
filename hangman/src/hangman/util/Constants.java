@@ -45,6 +45,4 @@ public final class Constants {
     public static final String PROGRAMMING_PRINCIPLES_CHOICE_MESSAGE = "Programming principles";
 
     public static final String CHOOSE_CATEGORY_MESSAGE = "Please choose a category:";
-
-    //public static final String CHOOSE_CATEGORY_MESSAGE = "The word/phrase was: %s";
 }

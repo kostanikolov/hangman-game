@@ -28,6 +28,10 @@ public class Hangman {
     public int getAttempts() {
         return this.attempts;
     }
+	
+	public void setAttempts(int attempts) {
+		this.attempts = attempts;
+	}
 
     public void decreaseAttempts() {
         this.attempts--;

@@ -67,6 +67,7 @@ public class Engine {
 
                 if (hangman.guessedWord(wordBeforeHiding, hiddenWord)) {
                     this.hangman.increasePoints();
+					this.hangman.setAttempts(10);
                     this.writer.writeLine(Constants.REVEALED_WORD_MESSAGE);
                     this.writer.writeLine(String.format(Constants.REVEALED_WORD, hiddenWord.toString()));
                     this.writer.writeLine(String.format(Constants.CURRENT_SCORE, hangman.getPoints()));
