@@ -65,17 +65,17 @@ public class Engine {
                     }
                 }
 
-                if (hangman.guessedWord(wordBeforeHiding, hiddenWord)) {
+                if (this.hangman.guessedWord(wordBeforeHiding, hiddenWord)) {
                     this.hangman.increasePoints();
                     this.hangman.setAttempts(10);
                     this.writer.writeLine(Constants.REVEALED_WORD_MESSAGE);
                     this.writer.writeLine(String.format(Constants.REVEALED_WORD, hiddenWord.toString()));
-                    this.writer.writeLine(String.format(Constants.CURRENT_SCORE, hangman.getPoints()));
+                    this.writer.writeLine(String.format(Constants.CURRENT_SCORE, this.hangman.getPoints()));
                     break;
                 }
 
                 if (!foundLetter) {
-                    hangman.decreaseAttempts();
+                    this.hangman.decreaseAttempts();
                     this.writer.writeLine(Constants.NON_CONTAINING_LETTER_MESSAGE);
 
                     if (hangman.getAttempts() == 0) {

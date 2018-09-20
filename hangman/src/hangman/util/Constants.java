@@ -20,7 +20,7 @@ public final class Constants {
 
     public static final String CATEGORIES_FILE_LOCAL_PATH = "\\src\\hangman\\resources\\Categories.txt";
 
-    public static final String GAME_OVER = "You Lost!%nThe word/phrase was %s: ";
+    public static final String GAME_OVER = "You Lost!%nThe word/phrase was: %s";
 
     public static final String FINAL_POINTS = "Points: %d";
 

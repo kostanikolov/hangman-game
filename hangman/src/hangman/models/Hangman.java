@@ -1,6 +1,5 @@
 package hangman.models;
 
-import hangman.io.ConsoleOutputWriter;
 import hangman.util.Constants;
 
 import java.io.File;
@@ -13,8 +12,6 @@ import java.util.List;
 import java.util.Random;
 
 public class Hangman {
-    private ConsoleOutputWriter writer;
-
     private int attempts;
 
     private int points;
@@ -22,7 +19,6 @@ public class Hangman {
     public Hangman() {
         this.attempts = 10;
         this.points = 0;
-        this.writer = new ConsoleOutputWriter();
     }
 
     public int getAttempts() {
