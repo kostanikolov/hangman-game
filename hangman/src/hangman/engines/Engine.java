@@ -1,20 +1,20 @@
 package hangman.engines;
 
-import hangman.io.ConsoleInputReader;
-import hangman.io.ConsoleOutputWriter;
-import hangman.models.Hangman;
+import hangman.interfaces.Hangman;
+import hangman.interfaces.InputReader;
+import hangman.interfaces.OutputWriter;
 import hangman.util.Constants;
 
 import java.io.IOException;
 
 public class Engine {
-    private ConsoleInputReader reader;
+    private InputReader reader;
 
-    private ConsoleOutputWriter writer;
+    private OutputWriter writer;
 
     private Hangman hangman;
 
-    public Engine(Hangman hangman, ConsoleInputReader reader, ConsoleOutputWriter writer) {
+    public Engine(Hangman hangman, InputReader reader, OutputWriter writer) {
         this.hangman = hangman;
         this.reader = reader;
         this.writer = writer;

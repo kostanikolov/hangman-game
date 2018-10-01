@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd2a8af-3682-4470-9a16-3c6145965013" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hangman/interfaces/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hangman/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hangman/interfaces/OutputWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman/hangman/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman/hangman/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman/hangman/engines/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman/hangman/engines/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman/hangman/models/Hangman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman/hangman/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman/hangman/util/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangman/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hangman/engines/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/engines/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangman/models/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/models/Hangman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangman/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangman/io/ConsoleInputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/io/ConsoleInputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangman/io/ConsoleOutputWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/io/ConsoleOutputWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangman/models/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangman/models/HangmanImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,91 +56,48 @@
     <session id="-2053477543">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="17" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="17" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="dummy" value="5" />
+          <entry key="java" value="452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="452" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hangman/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hangman/models/Hangman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#guessedWord#0;class#Hangman#0" />
-                <element signature="method#chooseCategory#0;class#Hangman#0" />
-                <element signature="method#chooseWord#0;class#Hangman#0" />
-                <element signature="method#hideWord#0;class#Hangman#0" />
-                <element signature="method#splitWordBySpace#0;class#Hangman#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hangman/util/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hangman/engines/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -147,12 +114,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/hangman/Hangman.java" />
         <option value="$PROJECT_DIR$/src/hangman/Engine.java" />
-        <option value="$PROJECT_DIR$/src/hangman/io/ConsoleInputReader.java" />
-        <option value="$PROJECT_DIR$/src/hangman/io/ConsoleOutputWriter.java" />
-        <option value="$PROJECT_DIR$/src/hangman/Application.java" />
-        <option value="$PROJECT_DIR$/src/hangman/engines/Engine.java" />
         <option value="$PROJECT_DIR$/src/hangman/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/hangman/models/Hangman.java" />
+        <option value="$PROJECT_DIR$/src/hangman/interfaces/Hangman.java" />
+        <option value="$PROJECT_DIR$/src/hangman/interfaces/OutputWriter.java" />
+        <option value="$PROJECT_DIR$/src/hangman/io/ConsoleOutputWriter.java" />
+        <option value="$PROJECT_DIR$/src/hangman/Application.java" />
+        <option value="$PROJECT_DIR$/src/hangman/interfaces/InputReader.java" />
+        <option value="$PROJECT_DIR$/src/hangman/io/ConsoleInputReader.java" />
+        <option value="$PROJECT_DIR$/src/hangman/engines/Engine.java" />
+        <option value="$PROJECT_DIR$/src/hangman/models/HangmanImpl.java" />
       </list>
     </option>
   </component>
@@ -175,7 +146,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,19 +169,55 @@
               <item name="hangman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="engines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537445444427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538418233711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,22 +271,25 @@
       <workItem from="1537432624516" duration="8326000" />
       <workItem from="1537442890803" duration="143000" />
       <workItem from="1537444599303" duration="851000" />
+      <workItem from="1537627368088" duration="1439000" />
+      <workItem from="1538063479002" duration="2876000" />
+      <workItem from="1538210095312" duration="75000" />
+      <workItem from="1538417067742" duration="1174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9320000" />
+    <option name="totallyTimeSpent" value="14884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12846482" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -288,9 +297,9 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.6583514" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3991323" />
-      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.856833" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.42299348" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -311,53 +320,76 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/hangman/io/ConsoleInputReader.java</url>
+          <line>17</line>
+          <properties class="hangman.io.ConsoleInputReader" method="readLine">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hangman/io/ConsoleOutputWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/hangman/interfaces/InputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hangman/io/ConsoleInputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="286">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hangman/models/Hangman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#guessedWord#0;class#Hangman#0" />
-            <element signature="method#chooseCategory#0;class#Hangman#0" />
-            <element signature="method#chooseWord#0;class#Hangman#0" />
-            <element signature="method#hideWord#0;class#Hangman#0" />
-            <element signature="method#splitWordBySpace#0;class#Hangman#0" />
+            <element signature="method#readLine#0;class#ConsoleInputReader#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hangman/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hangman/engines/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="173">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hangman/interfaces/Hangman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hangman/resources/Categories.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hangman/models/HangmanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -366,10 +398,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hangman/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="330">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hangman/interfaces/OutputWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hangman/io/ConsoleOutputWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
         </state>
       </provider>

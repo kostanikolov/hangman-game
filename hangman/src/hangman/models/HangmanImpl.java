@@ -1,5 +1,6 @@
 package hangman.models;
 
+import hangman.interfaces.Hangman;
 import hangman.util.Constants;
 
 import java.io.File;
@@ -7,40 +8,56 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
-public class Hangman {
+public class HangmanImpl implements Hangman {
     private int attempts;
 
     private int points;
 
-    public Hangman() {
+    private List<String> footballTeamsCat;
+
+    private List<String> booksCat;
+
+    private List<String> programmingPrinciplesCat;
+
+    private Map<String, List<String>> categoriesMap;
+
+    public HangmanImpl() {
         this.attempts = 10;
         this.points = 0;
+        this.footballTeamsCat = new ArrayList<>();
+        this.booksCat = new ArrayList<>();
+        this.programmingPrinciplesCat = new ArrayList<>();
+        this.categoriesMap = new LinkedHashMap<>();
     }
 
+    @Override
     public int getAttempts() {
         return this.attempts;
     }
 
+    @Override
     public void setAttempts(int attempts) {
         this.attempts = attempts;
     }
 
+    @Override
     public void decreaseAttempts() {
         this.attempts--;
     }
 
+    @Override
     public int getPoints() {
         return this.points;
     }
 
+    @Override
     public void increasePoints() {
         this.points++;
     }
 
+    @Override
     public boolean guessedWord(StringBuilder wordBeforeHiding, StringBuilder hiddenWord) {
         return wordBeforeHiding.toString().equals(hiddenWord.toString());
     }
@@ -49,6 +66,7 @@ public class Hangman {
         Chooses a category
         from the dictionary.
     */
+    @Override
     public String chooseCategory(String inputCategory) throws IOException {
         File currentDir = new File("");
         String path = currentDir.getAbsolutePath()
@@ -58,10 +76,6 @@ public class Hangman {
         List<String> categories = Files.readAllLines(categoriesPath);
 
         List<String> temp = new ArrayList<>();
-
-        List<String> footballTeamsCat = new ArrayList<>();
-        List<String> booksCat = new ArrayList<>();
-        List<String> programmingPrinciplesCat = new ArrayList<>();
 
         for (String category : categories) {
             switch (category) {
@@ -89,6 +103,7 @@ public class Hangman {
         Chooses a word
         from the selected category of the dictionary.
      */
+    @Override
     public String chooseWord(String inputCategory,
                              List<String> footballTeamsCat,
                              List<String> booksCat,
@@ -118,6 +133,7 @@ public class Hangman {
         Replaces all characters
         in the words/phrases with an underscore.
      */
+    @Override
     public String hideWord(char[] word) {
         String hiddenWord = "";
 
@@ -134,6 +150,7 @@ public class Hangman {
     /*
         Divides the given word/phrase by whitespace.
      */
+    @Override
     public String splitWordBySpace(char[] word) {
         String dividedWord = "";
 
