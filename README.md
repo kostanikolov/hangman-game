@@ -2,6 +2,8 @@
 
 ## You can start the game from the Application.java file at the src\hangman folder.
 
+# Making change after years and years of oblivion!
+
 There are 3 categories that you can choose from:
 * Football teams
 * Books
